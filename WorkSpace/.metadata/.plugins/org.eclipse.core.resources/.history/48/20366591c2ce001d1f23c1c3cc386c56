@@ -1,0 +1,17 @@
+
+public class Test06 {
+	public static void main(String[] args) {
+		int subKor ; 
+		int subMath ; 
+		int subEng ; 
+		int subSci ; 
+		int subPhi ; 
+		
+		subKor = 80 ;
+		subMath = 88 ; 
+		subEng = 90 ;
+		subSci = 95 ;
+		subPhi = 100 ;
+		System.out.println(subKor);
+	}
+}

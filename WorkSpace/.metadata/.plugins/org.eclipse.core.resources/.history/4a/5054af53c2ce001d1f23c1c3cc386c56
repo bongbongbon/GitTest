@@ -1,0 +1,17 @@
+
+public class Test06 {
+	public static void main(String[] args) {
+		int kor ; 
+		int math ; 
+		int eng ; 
+		int sci ; 
+		int phi ; 
+		
+		kor = 80 ;
+		math = 88 ; 
+		eng = 90 ;
+		sci = 95 ;
+		phi = 100 ;
+		System.out.println(kor);
+	}
+}

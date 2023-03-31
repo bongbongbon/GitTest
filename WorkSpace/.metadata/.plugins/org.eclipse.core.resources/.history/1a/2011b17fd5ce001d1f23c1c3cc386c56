@@ -1,0 +1,42 @@
+package pack09_scanner;
+
+import java.util.Scanner;
+
+public class Ex02_Scanner {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);	
+		System.out.println("입력한 값에 + 10 이 됩니다.");
+		String Data = sc.nextLine();// 내가 엔터키 치기전까지의 문자열을 가져옴
+		System.out.println("입력한 값에 + 20 이 됩니다.");
+		String Data1 = sc.nextLine(); // 내가 엔터키 치기전까지의 문자열을 가져옴
+		
+		int sum = Integer.parseInt(Data)+10;
+		int sum1 = Integer.parseInt(Data1)+20;
+		System.out.println(sum+sum1);
+		System.out.println("합계");
+		
+		Scanner sc3 = new Scanner(System.in);
+		String str = sc3.nextLine();
+		double dNum1 = Double.parseDouble(str)+10;
+		System.out.println(dNum1);
+		
+		Scanner sc4 = new Scanner(System.in);
+		String str4 = sc4.nextLine();
+		int iNum4 = Integer.parseInt(str4);
+		System.out.println(iNum4);
+		
+		
+		// 메모리 관리를 위해서 변수의 타입 마다 크기가 다르다
+		// 또한 실수 , 정수를 표현하기 위해서
+		// 변수의 나열 : 같은 타입일 경우 선언을 그룹으로 묶기 위해서 
+		// 변수의 선언 : 타입에 이름을 정해주는 것
+		// 변수의 할당 : 선언된 변수에 값(리터럴) 입력해주는 것
+		// 변수의 초기화 : 선언과 동시에 할당하는 것
+		
+		//변수 타입 변경(형변환, 캐스팅)의 이해 : 다른 타입의 값을 더해야할 때 같은 타입으로 변경해주기 위해서
+		//								또는 다른 클래스의 값을 더행야 할 때
+		// Scaner로 입력 받은 데이터 타입 변경의 이해? : 
+		
+		
+	}
+}

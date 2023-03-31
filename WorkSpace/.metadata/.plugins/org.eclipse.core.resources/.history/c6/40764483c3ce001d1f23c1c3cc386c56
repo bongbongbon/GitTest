@@ -1,0 +1,12 @@
+
+public class Test06 {
+	public static void main(String[] args) {
+		int korScore , mathScore , engScore , sciScore , phiScore ; 
+		korScore = 80 ;
+		mathScore = 88 ; 
+		engScore = 90 ;
+		sciScore = 95 ;
+		phiScore = 100 ;
+		System.out.println(korScore);
+	}
+}

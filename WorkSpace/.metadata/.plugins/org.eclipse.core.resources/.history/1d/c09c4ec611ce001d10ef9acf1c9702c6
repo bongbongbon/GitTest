@@ -1,0 +1,9 @@
+package pack08_casting;
+
+public class Ex_Casting {
+	public static void main(String[] args) {
+		int iNum = 10;
+		double dNum = iNum;
+		System.out.println(dNum);
+	}
+}	

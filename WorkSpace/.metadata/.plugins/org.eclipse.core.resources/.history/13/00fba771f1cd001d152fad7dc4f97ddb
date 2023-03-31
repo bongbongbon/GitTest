@@ -1,0 +1,9 @@
+package test01_Variable;
+
+public class test01_Variable {
+	private void name() {
+		int a;
+		a =6;
+		System.out.println(a);
+	}
+}

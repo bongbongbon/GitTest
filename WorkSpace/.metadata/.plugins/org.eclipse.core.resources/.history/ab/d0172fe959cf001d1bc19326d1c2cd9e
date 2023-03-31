@@ -1,0 +1,14 @@
+
+package pack09_Scanner;
+
+import java.util.Scanner;
+
+public class Ex01_Scanner {
+	public static void main(String[] args) {
+		Scanner sc = new Scannner(System.in);
+		String str = sc.nextLine();
+		int iNum = (int) Double.parseDouble(str);
+		System.out.println(iNum);
+				
+	}
+}

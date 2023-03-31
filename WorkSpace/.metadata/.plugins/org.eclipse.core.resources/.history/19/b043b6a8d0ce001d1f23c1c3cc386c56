@@ -1,0 +1,28 @@
+package pack09_scanner;
+
+import java.util.Scanner;
+
+public class Ex02_Scanner {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);	
+		System.out.println("입력한 값에 + 10 이 됩니다.");
+		String Data = sc.nextLine();// 내가 엔터키 치기전까지의 문자열을 가져옴
+		System.out.println("입력한 값에 + 20 이 됩니다.");
+		String Data1 = sc.nextLine(); // 내가 엔터키 치기전까지의 문자열을 가져옴
+		
+		int sum = Integer.parseInt(Data)+10;
+		int sum1 = Integer.parseInt(Data1)+20;
+		System.out.println(sum+sum1);
+		System.out.println("합계");
+		
+		Scanner sc1 = new Scanner(System.in);
+		String str1 = sc1.nextLine();
+		String str2 = sc1.nextLine();
+		
+		int sum3 = (Integer.parseInt(str1) + Integer.parseInt(str2));
+		System.out.println(sum3);
+		
+		String str = sc1.nextLine();
+	
+	}
+}

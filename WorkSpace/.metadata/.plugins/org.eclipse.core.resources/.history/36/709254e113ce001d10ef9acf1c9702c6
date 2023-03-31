@@ -1,0 +1,12 @@
+package pack08_casting;
+
+public class Ex02_Casting {
+	public static void main(String[] args) {
+		String sum = "12" + 10;
+		System.out.println(sum);
+		//문자열로 변환
+		String sum1 = ""+1234;
+		System.out.println(sum1);
+		
+	}
+}

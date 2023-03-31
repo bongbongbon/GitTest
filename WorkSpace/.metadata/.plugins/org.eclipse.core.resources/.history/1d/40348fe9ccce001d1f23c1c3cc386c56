@@ -1,0 +1,10 @@
+package pack09_scanner;
+
+public class Ex02_Scanner {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+			System.out.println("대기할건지?");
+			String inputData = sc.nextLine();
+			System.out.println("에헤라디야");
+	}
+}

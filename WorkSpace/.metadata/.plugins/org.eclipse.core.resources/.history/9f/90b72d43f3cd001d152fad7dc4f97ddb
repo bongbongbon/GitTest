@@ -1,0 +1,14 @@
+package test01_Variable;
+
+public class KSB {
+	private void name() {
+		int a;
+		a =6;
+
+		int b = 4;
+		byte b1 = 120;
+		long l1 = 12424L;
+		double d1 = 143.434;
+		float f1 = 1243.242F;
+	}
+}
